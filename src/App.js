@@ -1,5 +1,6 @@
 
 import RegisterContainer from '../src/containers';
+import React from 'react';
 import './App.css';
 
 function App() {
