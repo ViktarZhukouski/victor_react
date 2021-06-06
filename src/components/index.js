@@ -41,17 +41,6 @@ const Register = ({currentValue, allReset, changeDisplayFormStatus, displayForm,
         
     </div>  
     );
-let allResetButton = document.querySelector('.allRes')
-allResetButton.style.background = 'red'
-allResetButton.style.margin = '10px'
-allResetButton.style.color = 'rgb(10,240,240)'
-allResetButton.style.padding = '5px'
-allResetButton.style.border = 'none'
-allResetButton.style.borderRadius = '15px'
 
-let startButton = document.querySelector('.Start')
-startButton.style.background = 'lime'
-startButton.style.margin = '10px'
-startButton.style.padding = '5px'
 
 export default Register;

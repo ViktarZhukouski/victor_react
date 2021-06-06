@@ -69,9 +69,28 @@ class RegisterContainer extends React.Component {
         });
     }
     
-    
+
 
 render() {
+    if (this.state.currentThingPlus < 0) {
+        this.setState({
+            currentThingPlus: 0,
+        })
+    }
+
+    if (this.state.currentThingMinus < 0) {
+        this.setState({
+            currentThingMinus: 0,
+        })
+    }
+
+    if (this.state.currentValue < 0) {
+        this.setState({
+            currentValue: 0,
+        })
+    }
+    
+
     return (
     <Register 
         currentValue={this.state.currentValue}
