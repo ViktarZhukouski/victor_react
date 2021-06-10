@@ -1,5 +1,5 @@
 import React from 'react';
-import Register from '../components';
+import Register from '../components/counter';
 
 class RegisterContainer extends React.Component {
     constructor(props) {
@@ -111,4 +111,4 @@ render() {
 
 }
 
-export default RegisterContainer
+export default RegisterContainer;
