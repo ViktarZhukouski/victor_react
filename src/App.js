@@ -7,10 +7,10 @@ import {
   } from "react-router-dom";
 import Home from './components/home/Home';
 import Login from './components/login/login';
-import RegisterContainer from '../src/containers';
+import RegisterContainer from '../src/containers/index';
 import Geosearch from './components/geosearch';
 import Contacts from './components/contacts';
-import Registration from './components/registration';
+import RegisterContain from '../src/containers/RegisterContain';
 import Partners from './components/partners';
 import './App.css';
 
@@ -31,7 +31,7 @@ function App() {
             <Link to="/">Home</Link>
           </div>
           <div>
-            <Link to="/registration">Registration</Link>
+            <Link to="/register">Register</Link>
           </div>
           <div>
             <Link to="/login">Login</Link>
@@ -54,7 +54,7 @@ function App() {
           <Route path='/login' component = {Login} />
           <Route path='/geosearch' component ={Geosearch} />
           <Route path='/contacts' component ={Contacts} />
-          <Route path='/registration' component ={Registration} />
+          <Route path='/register' component ={RegisterContain} />
           <Route path='/partners' component ={Partners} />
           <Redirect to={Home} />
       </div>
